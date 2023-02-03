@@ -1,0 +1,8 @@
+.rating__item {
+  display: flex;
+  background-color: #e2d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}

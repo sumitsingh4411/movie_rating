@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.search {
+  width: 350px;
+  height: 42px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.movie_List {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.movie {
+  display: flex;
+  gap: 32px;
+}
+.movie_img {
+  width: 60px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.movieDetails {
+  margin-top: 44px;
+  display: flex;
+  align-content: center;
+  gap: 32px;
+  padding: 32px;
+}
+
+.movieDetails__img {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.movieDetails__button {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
